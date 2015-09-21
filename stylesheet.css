@@ -1,10 +1,11 @@
 body {
-	background-color:blue;
+	background-color:DarkGreen;
+	color:white;
 	
 }
 
 header {
-	background-color:silver;
+	background-color:black;
 	margin-top:10px;
 	overflow:hidden;
 	
@@ -12,7 +13,7 @@ header {
 
 h1 {
 	text-align:center;
-	color:blue; 	
+	color:white; 	
 	font-size: 3em; 
 	font-weight:bold; 
 	font-variant:small-caps;
@@ -24,44 +25,7 @@ p{
 	font-size:1.25em;
 }
 
-.polaroid {
-	border: solid 1px black; 
-	background: white;
-	text-align:center;
-	width: 250px;
-	padding: 20px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-}
-
-.gallery {
-	width:250px;
-}
-
-#wrap {
-	background-color:blue; 
-	margin:0 auto; 
-	width:95%; 
-	text-align:left; 
-	border: 2px solid black; 
-	}
-
-#left{
-	width:24%;
-	float:left;
-	overflow:hidden;
-	padding:10px;
-}
-
-#right{
-	width:24%;
-	float:left;
-	overflow:hidden;
-	padding:10px;
-}
-
 #middle {
-	width:47%;
 	float:left;
 	overflow:hidden;
 	padding:10px;
